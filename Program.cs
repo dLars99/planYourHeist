@@ -11,7 +11,6 @@ namespace planYourHeist
             Console.WriteLine();
             Team test = new Team();
             test.AddHench();
-            test.ListMembers();
         }
     }
 }

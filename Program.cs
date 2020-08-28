@@ -6,7 +6,12 @@ namespace planYourHeist
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Plan your Heist!");
+            Console.WriteLine("-------------------------");
+            Console.WriteLine();
+            Team test = new Team();
+            test.AddHench();
+            test.ListMembers();
         }
     }
 }
